@@ -9,7 +9,8 @@ body {
 }
 
 main {
-    background-color: antiquewhite;
+    display: flex;
+    background-color: white;
     height: 100vh;
     width: 67%;
 }
@@ -23,18 +24,13 @@ main {
 }
 
 .center-logo {
-    background-color: grey;
+    background-color: lightgray;
     opacity: .8;
     position: absolute;
     top: 22%;
     font-size: 75px;
 }
 
-/* .logo-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 #odin-logo {
     height: 100px;
     width: 100px;
@@ -53,4 +49,73 @@ main {
     gap: 12px;
     height: 140px;
     width: 480px;
+    color: white;
+}
+
+.section-container {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* border: red solid 2px; */
+}
+
+.paragraph-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 18px;
+    padding-left: 3em;
+    font-size: 24px;
+    height: 33.33%;
+    width: 100%;
+    text-wrap: wrap;
+
+}
+.form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 25px;
+    gap: 25px;
+    /* box-shadow: 10px; */
+    border: red 2px solid;
+    height: 33.33%;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    border: red 2px solid;
+
+
+
+
+}
+
+
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.div3 {
+
+    height: 33.33%;
+    width: 100%;
+
 }
